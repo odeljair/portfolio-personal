@@ -1,0 +1,45 @@
+/* ==========================
+   RESET
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   VARIABLES
+========================== */
+
+:root {
+    --color-primary: #2563EB;
+    --color-dark: #0F172A;
+    --color-text: #1E293B;
+    --color-gray: #64748B;
+    --color-bg: #F8FAFC;
+
+    --font-family: "Manrope", sans-serif;
+
+    --container: 1200px;
+}
+
+/* ==========================
+   GENERAL
+========================== */
+
+body {
+    font-family: var(--font-family);
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+section {
+    padding: 100px 0;
+}
